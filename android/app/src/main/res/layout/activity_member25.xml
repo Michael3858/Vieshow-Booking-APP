@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    android:padding="20dp"
+    tools:context=".Member25">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/back" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="一、訂票規定[團體票種]"
+                android:textColor="#0066FF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="1.每個帳號每日最多可接受2筆訂票，每筆訂票總張數限6張。\n2.每個月累計超過3筆訂票未取票，將停用帳號6個月。\n3.若須取消訂票，請於該場次開演前30分鐘至訂票紀錄取消。\n4.若因選擇錯誤票種而需要更換，威秀影城不保證相同座位。\n5.網路訂票每張票需加收NT$20手續費。\n6.片長 150分鐘(含)以上之電影需加價NT$10，每增加30分鐘需另再加價NT$10。\n7.ishow兌點票僅供現場劃位使用，不適用於網路訂票。\n8.為維護顧客權益，惡意佔位或影響他人正常訂位使用者，威秀影城保有調整或取消訂位之權利。"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="二、取票規定[團體票種]"
+                android:textColor="#0066FF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="1.使用『團體優待票券』之觀眾完成網路訂票後，請於取票時間內，憑訂票序號以及「實體團體優待票券」至購票影城進行取票。\n2.訂購『愛心票』與『敬老票』之觀眾完成網路訂票後，請於取票時間內，憑訂票序號並持票種有效證件或手冊正本，至購票影城進行驗證與取票。\n3.持『愛心票』與『敬老票』入場觀影者，請於入場時出示本人之有效身分證件，無證件者須補費至全票金額。\n4.請於場次開演前30分鐘至影城完成取票動作，否則訂票將自動被取消。"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="三、退換票規定[團體票種]"
+                android:textColor="#0066FF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="1.退換票只接受電影開演前20分鐘至影城櫃檯辦理。\n2.退換票請持原電影票辨理，電影票遺失恕不補發，亦無法辦理退換票。\n3.退、換票恕不退還手續費。\n4.因天災或特殊事故取消電影放映時，請於購票場次7日內憑『未使用之原票券』至原購票影城櫃台辦理退換票。影城未營業期間均不收取手續費。\n5.其餘未盡事項依影城現場公告為主。"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="我已閱讀並同意上述規定"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:buttonTint="#0000FF" />
+
+            <Button
+                android:id="@+id/booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="前往訂票"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#888888" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
