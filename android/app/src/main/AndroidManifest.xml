@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.vieshow">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VIESHOW"
+        tools:targetApi="31">
+        <activity
+            android:name=".Member36"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember15"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember14"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember13"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember12"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember11"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember10"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember9"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember8"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember7"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember6"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember5"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember4"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember3"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember2"
+            android:exported="false" />
+        <activity
+            android:name=".NonMember1"
+            android:exported="false" />
+        <activity
+            android:name=".Member35"
+            android:exported="false" />
+        <activity
+            android:name=".Member34"
+            android:exported="false" />
+        <activity
+            android:name=".Member33"
+            android:exported="false" />
+        <activity
+            android:name=".Member32"
+            android:exported="false" />
+        <activity
+            android:name=".Member31"
+            android:exported="false" />
+        <activity
+            android:name=".Member30"
+            android:exported="false" />
+        <activity
+            android:name=".Member29"
+            android:exported="false" />
+        <activity
+            android:name=".Member28"
+            android:exported="false" />
+        <activity
+            android:name=".Member27"
+            android:exported="false" />
+        <activity
+            android:name=".Member26"
+            android:exported="false" />
+        <activity
+            android:name=".Member25"
+            android:exported="false" />
+        <activity
+            android:name=".Member24"
+            android:exported="false" />
+        <activity
+            android:name=".Member23"
+            android:exported="false" />
+        <activity
+            android:name=".Member22"
+            android:exported="false" />
+        <activity
+            android:name=".Member21"
+            android:exported="false" />
+        <activity
+            android:name=".Member20"
+            android:exported="false" />
+        <activity
+            android:name=".Member18"
+            android:exported="false" />
+        <activity
+            android:name=".Member19"
+            android:exported="false" />
+        <activity
+            android:name=".Member17"
+            android:exported="false" />
+        <activity
+            android:name=".Member16"
+            android:exported="false" />
+        <activity
+            android:name=".Member15"
+            android:exported="false" />
+        <activity
+            android:name=".Member14"
+            android:exported="false" />
+        <activity
+            android:name=".Member13"
+            android:exported="false" />
+        <activity
+            android:name=".Member12"
+            android:exported="false" />
+        <activity
+            android:name=".Member11"
+            android:exported="false" />
+        <activity
+            android:name=".Member10"
+            android:exported="false" />
+        <activity
+            android:name=".Member9"
+            android:exported="false" />
+        <activity
+            android:name=".Member8"
+            android:exported="false" />
+        <activity
+            android:name=".Member7"
+            android:exported="false" />
+        <activity
+            android:name=".Member6"
+            android:exported="false" />
+        <activity
+            android:name=".Member5"
+            android:exported="false" />
+        <activity
+            android:name=".Member4"
+            android:exported="false" />
+        <activity
+            android:name=".Member3"
+            android:exported="false" />
+        <activity
+            android:name=".Member2"
+            android:exported="false" />
+        <activity
+            android:name=".Member1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

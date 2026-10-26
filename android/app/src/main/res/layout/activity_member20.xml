@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffe0"
+    android:padding="20dp"
+    tools:context=".Member20">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/back"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="left"
+                        android:background="@android:color/transparent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/back" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="一、訂票及取票規定[一般票種]"
+                android:textColor="#0066FF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="1.每筆訂票張數以 10 張為限。\n2.iShow會員票種每日訂票張數以 10 張為限。\n3.各銀行優惠票種之張數與折扣金額，請依各銀行信用卡優惠規則為準。銀行優惠票種預訂以電影播放日期為準，非刷卡日計算。每卡每日購買張數限制依影片版本與觀影日期相關規定限制。\n4.請注意此交易金額將於購票步驟完成後，即刻於您的信用卡帳戶或儲值金帳戶中進行扣款。\n5.銀行優惠票種與iShow會員票種無法於同筆訂單中，請分次訂購，唯兩筆訂票無法保證座位。\n6.完成付款後，請憑「訂票序號」至購票影城進行取票。\n7.購票完成亦可至超商進行取票，但若交易內含餐飲品項，須至購票影城臨櫃領取電影票與餐點。\n8.網路訂票每張票需加收NT$20手續費。\n9.片長 150分鐘(含)以上之電影需加價NT$10，每增加30分鐘需另再加價NT$10。"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="二、退換票規定[一般票種]"
+                android:textColor="#0066FF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="1.線上購票後若已領取電影票，因故無法如期觀影，請於開演前 20 分鐘持未使用之電影票與原訂購之信用卡親至觀影影城辦理退換票。已取票或取餐者，無法進行線上退款。\n2.線上購票後若尚未領取電影票，因故無法如期觀影，可於威秀影城官網登入會員訂票紀錄中進行線上退票，電影票最遲應於影片開演2小時前完成線上退票程序。\n3.電影票遺失恕不補發，亦無法辦理退換票。線上購票完成後退、換票，訂票手續費恕不退還，且不保證相同座位。\n4.因天災或特殊事故取消電影放映時，請於購票場次7日內憑『未使用之原票券』至原購票影城櫃台辦理退換票，影城未營業期間均不收取手續費。\n5.退、換票注意事項：若是信用卡付款，則需攜帶購票之信用卡辦理退票（如未攜帶原購票信用卡，恕無法辦理退換票）。\n6.其餘未盡事項依影城現場公告為主。"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="我已閱讀並同意上述規定"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:buttonTint="#0000FF" />
+
+            <Button
+                android:id="@+id/booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="前往訂票"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#888888" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
