@@ -1,0 +1,28 @@
+# Private local configuration
+/backend/config.php
+/android/local.properties
+keystore.properties
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
+
+# Android Studio and Gradle output
+.gradle/
+.idea/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+*.apk
+*.aab
+*.ap_
+*.log
+*.hprof
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
