@@ -1,0 +1,17 @@
+<?php
+require __DIR__ . '/conn.php';
+
+connect();
+
+$ID = $_POST["ID"];
+$datas = array();
+$mysql_qry = "SELECT DISTINCT ticket_type.Type_Classify, ticket_type.Type_Name, ticket_type.Type_Price FROM screenings, movie_ticket_type, ticket_type WHERE screenings.Movie_ID = movie_ticket_type.Movie_ID AND movie_ticket_type.Type_ID = ticket_type.Type_ID AND screenings.Screenings_ID = '$ID' ORDER BY ticket_type.Type_Classify;";
+$result = mysqli_query($con, $mysql_qry);
+while ($row = mysqli_fetch_assoc($result)) {
+       $datas[] = $row;
+}	
+
+print(json_encode($datas,JSON_UNESCAPED_UNICODE));
+close();
+
+?>
